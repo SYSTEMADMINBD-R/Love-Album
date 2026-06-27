@@ -47,13 +47,13 @@
 }
 
 :root {
-  --background: 40 33% 98%;
+  --background: 348 55% 96%;
   --foreground: 356 28% 23%;
-  --border: 15 30% 85%;
-  --card: 40 33% 98%;
+  --border: 348 30% 85%;
+  --card: 348 45% 97%;
   --card-foreground: 356 28% 23%;
-  --card-border: 15 30% 85%;
-  --popover: 40 33% 98%;
+  --card-border: 348 30% 85%;
+  --popover: 348 45% 97%;
   --popover-foreground: 356 28% 23%;
   --popover-border: 15 30% 85%;
   --primary: 11 41% 58%;
