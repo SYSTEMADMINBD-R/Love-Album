@@ -3,14 +3,14 @@ import balloon1 from "@assets/balloon1_1782554910850.png";
 import balloon2 from "@assets/balloon2_1782554910861.png";
 
 const balloons = [
-  { img: balloon1, left: "5%",  size: 70,  delay: 0,    duration: 14 },
-  { img: balloon2, left: "15%", size: 85,  delay: 3,    duration: 17 },
-  { img: balloon1, left: "28%", size: 60,  delay: 7,    duration: 13 },
-  { img: balloon2, left: "42%", size: 90,  delay: 1.5,  duration: 18 },
-  { img: balloon1, left: "58%", size: 65,  delay: 5,    duration: 15 },
-  { img: balloon2, left: "70%", size: 80,  delay: 9,    duration: 16 },
-  { img: balloon1, left: "82%", size: 75,  delay: 2,    duration: 14 },
-  { img: balloon2, left: "92%", size: 55,  delay: 6,    duration: 12 },
+  { img: balloon1, left: "5%",  size: 52,  delay: 0,    duration: 14 },
+  { img: balloon2, left: "15%", size: 64,  delay: 3,    duration: 17 },
+  { img: balloon1, left: "28%", size: 46,  delay: 7,    duration: 13 },
+  { img: balloon2, left: "42%", size: 68,  delay: 1.5,  duration: 18 },
+  { img: balloon1, left: "58%", size: 50,  delay: 5,    duration: 15 },
+  { img: balloon2, left: "70%", size: 60,  delay: 9,    duration: 16 },
+  { img: balloon1, left: "82%", size: 56,  delay: 2,    duration: 14 },
+  { img: balloon2, left: "92%", size: 44,  delay: 6,    duration: 12 },
 ];
 
 export default function Balloons() {

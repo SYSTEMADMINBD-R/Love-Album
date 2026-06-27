@@ -56,7 +56,7 @@ export default function LetterModal() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
             onClick={() => setOpen(false)}
-            className="fixed inset-0 z-50 flex items-center justify-center px-4 bg-foreground/70 backdrop-blur-sm"
+            className="fixed inset-0 z-50 flex items-center justify-center px-4 py-8 bg-foreground/70 backdrop-blur-sm overflow-y-auto"
           >
             {/* Letter Card */}
             <motion.div
@@ -71,7 +71,7 @@ export default function LetterModal() {
               {/* Top decorative stripe */}
               <div className="h-1 w-full bg-gradient-to-r from-primary/40 via-secondary/60 to-primary/40" />
 
-              <div className="px-8 py-10 md:px-12 md:py-12 space-y-8 max-h-[75vh] overflow-y-auto">
+              <div className="px-6 py-8 md:px-12 md:py-12 space-y-8 max-h-[70vh] overflow-y-auto overscroll-contain" style={{ WebkitOverflowScrolling: "touch" } as React.CSSProperties}>
                 {/* Part 1 — Birthday message */}
                 <div className="space-y-3 text-center">
                   <p

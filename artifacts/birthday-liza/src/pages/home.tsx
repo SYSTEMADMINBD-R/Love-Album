@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div
-      className={`w-full min-h-screen bg-background overflow-hidden ${isBn ? "" : "font-sans"}`}
+      className={`w-full min-h-screen bg-background ${isBn ? "" : "font-sans"}`}
       style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif" } : {}}
     >
       <Balloons />
@@ -63,7 +63,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
-            className="font-serif text-6xl md:text-8xl lg:text-9xl text-[#fdfbf7] tracking-wider mb-6"
+            className="font-serif text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-[#fdfbf7] tracking-wider mb-6"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontWeight: 600 } : {}}
           >
             {t.heroName}
@@ -87,16 +87,16 @@ export default function Home() {
       </section>
 
       {/* 2. My Only Desirable Love */}
-      <section className="py-32 px-6 md:px-12 max-w-7xl mx-auto">
+      <section className="py-16 md:py-32 px-6 md:px-12 max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.2 }}
-          className="text-center mb-24"
+          className="text-center mb-12 md:mb-24"
         >
           <h2
-            className="font-serif text-4xl md:text-6xl text-foreground mb-8"
+            className="font-serif text-3xl md:text-6xl text-foreground mb-8"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontWeight: 600 } : {}}
           >
             {t.section2Title}
@@ -144,24 +144,24 @@ export default function Home() {
       </section>
 
       {/* 3. The Inner Feelings */}
-      <section className="py-32 bg-primary/5 relative overflow-hidden">
+      <section className="py-16 md:py-32 bg-primary/5 relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 
-        <div className="max-w-4xl mx-auto px-6 text-center space-y-16">
+        <div className="max-w-4xl mx-auto px-6 text-center space-y-8 md:space-y-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className="font-serif text-4xl md:text-5xl text-primary"
+            className="font-serif text-2xl sm:text-3xl md:text-5xl text-primary"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontWeight: 600 } : {}}
           >
             {t.section3Title}
           </motion.h2>
 
           <div
-            className="space-y-12 font-serif text-2xl md:text-4xl leading-snug text-foreground/90 italic"
+            className="space-y-8 md:space-y-12 font-serif text-lg sm:text-2xl md:text-4xl leading-snug text-foreground/90 italic"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontStyle: "normal" } : {}}
           >
             {[t.section3Quote1, t.section3Quote2, t.section3Quote3].map((q, i) => (
@@ -180,16 +180,16 @@ export default function Home() {
       </section>
 
       {/* 4. My Heartful Thoughts */}
-      <section className="py-32 px-6 md:px-12 max-w-5xl mx-auto">
+      <section className="py-16 md:py-32 px-6 md:px-12 max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.2 }}
-          className="text-center mb-20"
+          className="text-center mb-10 md:mb-20"
         >
           <h2
-            className="font-serif text-4xl md:text-6xl text-foreground mb-6"
+            className="font-serif text-3xl md:text-6xl text-foreground mb-6"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontWeight: 600 } : {}}
           >
             {t.section4Title}
@@ -242,7 +242,7 @@ export default function Home() {
       </section>
 
       {/* 5. Make a Wish */}
-      <section className="py-32 px-6 bg-foreground text-background relative flex flex-col items-center justify-center min-h-[80vh]">
+      <section className="py-16 md:py-32 px-6 bg-foreground text-background relative flex flex-col items-center justify-center min-h-[60vh] md:min-h-[80vh]">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -251,14 +251,14 @@ export default function Home() {
           className="text-center z-10"
         >
           <h2
-            className="font-serif text-4xl md:text-5xl text-secondary mb-16"
+            className="font-serif text-3xl md:text-5xl text-secondary mb-10 md:mb-16"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontWeight: 600 } : {}}
           >
             {t.section5Title}
           </h2>
           <Candle />
           <p
-            className="mt-16 text-background/70 tracking-widest uppercase text-sm"
+            className="mt-10 md:mt-16 text-background/70 tracking-widest uppercase text-sm"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", textTransform: "none", letterSpacing: "0.05em" } : {}}
           >
             {t.section5Hint}
@@ -271,7 +271,7 @@ export default function Home() {
       </section>
 
       {/* 6. Letter Section */}
-      <section className="py-32 px-6 flex flex-col items-center justify-center bg-primary/5 relative">
+      <section className="py-16 md:py-32 px-6 flex flex-col items-center justify-center bg-primary/5 relative">
         <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -285,7 +285,7 @@ export default function Home() {
       </section>
 
       {/* 7. Footer */}
-      <footer className="py-24 bg-background text-center flex flex-col items-center">
+      <footer className="py-16 md:py-24 bg-background text-center flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -295,7 +295,7 @@ export default function Home() {
         >
           <div className="w-12 h-[1px] bg-primary/40 mb-4" />
           <p
-            className="font-serif text-3xl md:text-4xl text-foreground italic"
+            className="font-serif text-2xl md:text-4xl text-foreground italic"
             style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontStyle: "normal" } : {}}
           >
             {t.footerSign}
