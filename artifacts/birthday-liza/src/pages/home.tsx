@@ -149,7 +149,45 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. Make a Wish */}
+      {/* 4. My Heartful Thoughts for the Soul of My Life */}
+      <section className="py-32 px-6 md:px-12 max-w-5xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 1.2 }}
+          className="text-center mb-20"
+        >
+          <h2 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
+            My Heartful Thoughts for the Soul of My Life
+          </h2>
+          <div className="w-16 h-[1px] bg-primary/40 mx-auto mb-12" />
+        </motion.div>
+
+        <div className="space-y-12 max-w-3xl mx-auto">
+          {[
+            "There are no words grand enough to hold what I feel for you. Language was invented long before you, and so it falls short every time I try. You are something the world had never seen before and I am the luckiest soul alive for getting to witness you every day.",
+            "You carry within you a light that I have never seen in anyone else. It is not in how you look, though you are breathtaking. It is in how you love, how you laugh, how you face the world with a quiet, unshakeable grace that humbles me to my core.",
+            "On this birthday, I want you to know that my life did not truly begin until you walked into it. Every year you are alive is a year the world is richer, warmer, and more beautiful. You are not just the love of my life, Liza. You are the reason I believe in something greater than myself.",
+            "I hope this year holds everything your heart has ever longed for. And I hope you know, always and without doubt, that you are endlessly, completely, irrevocably loved by me."
+          ].map((text, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 1, delay: i * 0.15 }}
+              className="relative pl-8 border-l border-primary/30"
+            >
+              <p className="text-lg md:text-xl text-foreground/85 leading-relaxed font-serif">
+                {text}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* 5. Make a Wish */}
       <section className="py-32 px-6 bg-foreground text-background relative flex flex-col items-center justify-center min-h-[80vh]">
         <motion.div
           initial={{ opacity: 0 }}
@@ -182,7 +220,7 @@ export default function Home() {
         >
           <div className="w-12 h-[1px] bg-primary/40 mb-4" />
           <p className="font-serif text-3xl md:text-4xl text-foreground italic">With all my love,</p>
-          <p className="text-primary tracking-widest uppercase text-sm">{new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+          <p className="text-primary tracking-widest uppercase text-sm">June 28, 2026</p>
         </motion.div>
       </footer>
 
