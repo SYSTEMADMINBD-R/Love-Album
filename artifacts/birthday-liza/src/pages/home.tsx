@@ -117,7 +117,7 @@ export default function Home() {
             transition={{ duration: 1 }}
             className="font-serif text-4xl md:text-5xl text-primary"
           >
-            Our Story
+            The Inner Feelings for You My Heartbeat
           </motion.h2>
 
           <div className="space-y-12 font-serif text-2xl md:text-4xl leading-snug text-foreground/90 italic">
