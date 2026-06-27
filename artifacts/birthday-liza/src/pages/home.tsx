@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import Candle from "@/components/candle";
+import LetterModal from "@/components/LetterModal";
 import { useLanguage } from "@/context/LanguageContext";
 
 import photo1 from "@assets/b02a5afb-0a65-427c-8c09-0a61f3f6805b_1782550520978.jfif";
@@ -266,7 +267,21 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6. Footer */}
+      {/* 6. Letter Section */}
+      <section className="py-32 px-6 flex flex-col items-center justify-center bg-primary/5 relative">
+        <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 1.2 }}
+          className="flex flex-col items-center"
+        >
+          <LetterModal />
+        </motion.div>
+      </section>
+
+      {/* 7. Footer */}
       <footer className="py-24 bg-background text-center flex flex-col items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}

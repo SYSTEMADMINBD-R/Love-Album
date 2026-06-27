@@ -35,6 +35,14 @@ export const translations = {
     section5Title: "Make a Wish",
     section5Hint: "Tap to blow out the candle",
 
+    letterBtn: "Click Here Liza",
+    letterPart1Line1: "Happy Birthday, My Love! ❤️",
+    letterPart1Line2: "May your days always be filled with smiles,",
+    letterPart1Line3: "and may all your dreams come true.",
+    letterPart1Line4: "You are the most beautiful part of my life.",
+    letterPart1Line5: "I love you, today and forever. 🎂💖",
+    letterPart2: "This line is the second cutest thing because you are the first one. If you want to be my happiness then be my darkness.\n\nWhy darkness?\n\nBecause Batman chose the bat because once he was afraid of it. And I chose darkness because once I was afraid of it too.\n\nOne day you will be mine.",
+
     footerSign: "With all my love,",
     footerDate: "June 28, 2026",
   },
@@ -72,6 +80,14 @@ export const translations = {
 
     section5Title: "একটি ইচ্ছা করো",
     section5Hint: "মোমবাতি নেভাতে ট্যাপ করো",
+
+    letterBtn: "এখানে ক্লিক করো লিজা",
+    letterPart1Line1: "জন্মদিনের শুভেচ্ছা, আমার ভালোবাসা! ❤️",
+    letterPart1Line2: "তোমার দিনগুলো সবসময় হাসিতে ভরা থাকুক,",
+    letterPart1Line3: "আর তোমার সব স্বপ্ন পূরণ হোক।",
+    letterPart1Line4: "তুমি আমার জীবনের সবচেয়ে সুন্দর অংশ।",
+    letterPart1Line5: "আমি তোমাকে ভালোবাসি, আজ এবং চিরকাল। 🎂💖",
+    letterPart2: "এই লাইনটি দ্বিতীয় সবচেয়ে মিষ্টি জিনিস কারণ তুমি প্রথম। যদি তুমি আমার সুখ হতে চাও, তাহলে আমার অন্ধকার হও।\n\nকেন অন্ধকার?\n\nকারণ ব্যাটম্যান বাদুড়কে বেছে নিয়েছিল কারণ একসময় সে এটাকে ভয় পেত। আর আমি অন্ধকারকে বেছে নিয়েছি কারণ একসময় আমিও এটাকে ভয় পেতাম।\n\nএকদিন তুমি আমার হবে।",
 
     footerSign: "সমস্ত ভালোবাসা সহ,",
     footerDate: "জুন ২৮, ২০২৬",
