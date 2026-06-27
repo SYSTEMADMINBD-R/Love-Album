@@ -184,6 +184,30 @@ export default function Home() {
               </p>
             </motion.div>
           ))}
+
+          <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-primary/25 to-transparent my-16" />
+
+          {[
+            "I love you neither with my heart nor with my mind. Just in case the heart might stop, the mind can forget. I love you with my soul. Soul never stops or forgets.",
+            "I love you neither with my heart nor with my mind. Just in case the heart might stop, the mind can forget. I love you with my soul. Soul never stops or forgets.",
+            "If I met you today for the first time, I would fall for you all over again. But I wouldn't say a hello to you. I would just keep walking by — because I have already seen the ending for this movie, and I know I couldn't survive it."
+          ].map((poem, i) => (
+            <motion.div
+              key={`poem-${i}`}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 1.2, delay: i * 0.2 }}
+              className="text-center py-8 px-6"
+            >
+              <p className="font-serif italic text-xl md:text-2xl text-foreground/90 leading-relaxed tracking-wide">
+                &ldquo;{poem}&rdquo;
+              </p>
+              <div className="mt-6 flex items-center justify-center">
+                <span className="text-primary/60 text-lg">&#9825;</span>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </section>
 
