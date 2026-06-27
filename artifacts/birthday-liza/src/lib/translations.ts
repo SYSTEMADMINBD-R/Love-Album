@@ -26,7 +26,7 @@ export const translations = {
     section4Para4:
       "I hope this year holds everything your heart has ever longed for. And I hope you know, always and without doubt, that you are endlessly, completely, irrevocably loved by me.",
     section4Poem1:
-      "I love you neither with my heart nor with my mind. Just in case the heart might stop, the mind can forget. I love you with my soul. Soul never stops or forgets.",
+      "You. Just you. Always you. Forever you. Your beautiful soul. Your sweet smile. Your stunning eyes. No one could ever replace you. I love you so, so much.",
     section4Poem2:
       "I love you neither with my heart nor with my mind. Just in case the heart might stop, the mind can forget. I love you with my soul. Soul never stops or forgets.",
     section4Poem3:
@@ -64,7 +64,7 @@ export const translations = {
     section4Para4:
       "আশা করি এই বছরটা তোমার হৃদয়ের সব স্বপ্ন পূরণ করবে। আর সবসময় জেনো — তুমি অনন্তকাল, সম্পূর্ণভাবে, অটলভাবে আমার ভালোবাসায় আবৃত।",
     section4Poem1:
-      "আমি তোমাকে ভালোবাসি না আমার হৃদয় দিয়ে, না মন দিয়ে। কারণ হৃদয় থেমে যেতে পারে, মন ভুলে যেতে পারে। আমি তোমাকে ভালোবাসি আমার আত্মা দিয়ে। আত্মা কখনো থামে না, কখনো ভোলে না।",
+      "তুমি। শুধু তুমি। সবসময় তুমি। চিরকাল তুমি। তোমার সুন্দর আত্মা। তোমার মিষ্টি হাসি। তোমার মনোমুগ্ধকর চোখ। কেউ কখনো তোমার জায়গা নিতে পারবে না। আমি তোমাকে এত, এত ভালোবাসি।",
     section4Poem2:
       "আমি তোমাকে ভালোবাসি না আমার হৃদয় দিয়ে, না মন দিয়ে। কারণ হৃদয় থেমে যেতে পারে, মন ভুলে যেতে পারে। আমি তোমাকে ভালোবাসি আমার আত্মা দিয়ে। আত্মা কখনো থামে না, কখনো ভোলে না।",
     section4Poem3:
