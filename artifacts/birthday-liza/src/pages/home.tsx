@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import Candle from "@/components/candle";
 import LetterModal from "@/components/LetterModal";
 import Balloons from "@/components/Balloons";
+import MusicPlayer from "@/components/MusicPlayer";
 import { useLanguage } from "@/context/LanguageContext";
 
 import photo1 from "@assets/b02a5afb-0a65-427c-8c09-0a61f3f6805b_1782550520978.jfif";
@@ -22,6 +23,7 @@ export default function Home() {
       style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif" } : {}}
     >
       <Balloons />
+      <MusicPlayer />
 
       {/* Floating Language Toggle */}
       <div className="fixed top-5 right-5 z-50">
