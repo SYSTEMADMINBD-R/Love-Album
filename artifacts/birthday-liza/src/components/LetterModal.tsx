@@ -107,6 +107,16 @@ export default function LetterModal() {
                 </div>
               </div>
 
+              {/* Signature */}
+              <div className="px-8 pb-6 md:px-12 flex justify-end">
+                <p
+                  className="font-serif italic text-sm text-primary/70 tracking-wide"
+                  style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontStyle: "normal" } : {}}
+                >
+                  {isBn ? "আত্মার চিরন্তন ভালোবাসা" : "Eternal Love of the Soul"}
+                </p>
+              </div>
+
               {/* Bottom decorative stripe */}
               <div className="h-1 w-full bg-gradient-to-r from-primary/40 via-secondary/60 to-primary/40" />
 
