@@ -71,7 +71,7 @@ export default function LetterModal() {
               {/* Top decorative stripe */}
               <div className="h-1 w-full bg-gradient-to-r from-primary/40 via-secondary/60 to-primary/40" />
 
-              <div className="px-8 py-10 md:px-12 md:py-12 space-y-8">
+              <div className="px-8 py-10 md:px-12 md:py-12 space-y-8 max-h-[75vh] overflow-y-auto">
                 {/* Part 1 — Birthday message */}
                 <div className="space-y-3 text-center">
                   <p
@@ -105,16 +105,16 @@ export default function LetterModal() {
                 >
                   {t.letterPart2}
                 </div>
-              </div>
 
-              {/* Signature */}
-              <div className="px-8 pb-6 md:px-12 flex justify-end">
-                <p
-                  className="font-serif italic text-sm text-primary/70 tracking-wide"
-                  style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontStyle: "normal" } : {}}
-                >
-                  {isBn ? "আত্মার চিরন্তন ভালোবাসা" : "Eternal Love of the Soul"}
-                </p>
+                {/* Signature — bottom right of letter */}
+                <div className="flex justify-end pt-2">
+                  <p
+                    className="font-serif italic text-sm text-primary/70 tracking-wide"
+                    style={isBn ? { fontFamily: "'Hind Siliguri', sans-serif", fontStyle: "normal" } : {}}
+                  >
+                    {isBn ? "আত্মার চিরন্তন ভালোবাসা" : "Eternal Love of the Soul"}
+                  </p>
+                </div>
               </div>
 
               {/* Bottom decorative stripe */}
