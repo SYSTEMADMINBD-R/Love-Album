@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npx tsx src/hello.ts"
+    "start": "npx tsx hello.ts"
   },
   "devDependencies": {
     "prettier": "^3.8.4",
